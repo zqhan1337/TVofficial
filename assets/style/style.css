@@ -1,0 +1,1779 @@
+@font-face{
+    font-family: 'Golos';
+    src: url(../fonts/Golos-Text_Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Golos';
+    src: url(../fonts/Golos-Text_DemiBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Golos';
+    src: url(..//fonts/Golos-Text_Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #1b1b1b;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+html{
+    background-color: #1b1b1b;
+}
+.btn{
+    padding: 0;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header .container .logoraz{
+    display: flex;
+    align-items: center;
+}
+
+.header .container .options{
+    display: flex;
+    
+}
+.header .container .options .frst{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+   
+}
+.header .container .options .scnd{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+   
+}
+.header .container .options .thd{
+    display: flex;
+    align-items: center;
+   
+}
+.header .container .logoraz .razdel .text{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-family: 'Golos';
+    font-weight: 500;
+    font-size: 16px;
+}
+.header .container .logoraz .razdel a{
+    margin-left: 20px;
+    transition: .5s;
+}
+.header .container .logoraz .razdel a:hover{
+    margin-left: 20px;
+    color: #85b0f9;
+    transition: .3s;
+   
+}
+.header .container .options .icon{
+    margin-top: 3px;
+    
+}
+
+
+.header .container .options .option{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-family: 'Golos';
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: .5s;
+}
+.header .container .options .option:hover{
+    color: #85b0f9;
+    transition: .3s;
+}
+
+
+.film .container{
+    background: url(../img/1.jpg);
+    height: 600px;
+    border-radius: 8px;
+    padding-left: 75px;
+    padding-bottom: 70px;
+    padding-top: 190px;
+    margin-bottom: 100px;
+    background-size: cover;
+    background-position: center;
+}
+.film .container .info{
+    display: flex;
+    align-items: center;
+}
+.film .container .inkognito{
+    font-family: 'Golos';
+    font-size: 50px;
+    font-weight: 700;
+    color: #f0f0f0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.film .container .info h3{
+    font-family: 'Golos';
+    font-size: 14px;
+    color: #919192;
+    font-weight: 500;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.film .container .info .obvodka{
+    font-family: 'Golos';
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #030604;
+    color: #919192;
+    border: 1px solid #323032;
+}
+.film .container .info .bold{
+    font-family: 'Golos';
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 600;
+    margin-left: 0;
+}
+.film .container .opis{
+    font-family: 'Golos';
+    font-size: 16px;
+    font-weight: 500;
+    color: #f0f0f0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.film .container .btn{
+    display: flex;
+    width: 430px;
+    justify-content: space-between;
+}
+.film .container .btn .gradient{
+    height: 52px;
+    width: 230px;
+    background: rgb(47,83,207);
+    background: linear-gradient(90deg, rgba(47,83,207,1) 0%, rgba(79,100,243,1) 50%, rgba(133,175,249,1) 100%);
+    color: #f0f0f0;
+    font-family: 'Golos';
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: .9s;
+}
+.film .container .btn .gradient:hover{
+    box-shadow: 1px 1px 10px 5px rgb(5, 100, 243);
+    transition: .5s;
+}
+.film .container .btn .gradient svg{
+    margin-right: 9px;
+}
+.film .container .btn .trailers svg{
+    margin-right: 9px;
+}
+.film .container .btn .trailers{
+    width: 119px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(7,14,34) ;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #f0f0f0;
+    background: rgb(7,14,34);
+    background: linear-gradient(90deg, rgba(7,14,34,1) 0%, rgba(39,42,43,1) 100%);
+    transition: .5s ;
+}
+.film .container .btn .trailers:hover{
+    background: black;
+    border: 1px solid rgb(47,83,207);
+    transition: .3s ;
+}
+
+.film .container .btn .zagkad{
+    width: 49px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(7,14,34);
+    background: linear-gradient(90deg, rgba(7,14,34,1) 0%, rgba(39,42,43,1) 100%);
+    border-radius: 8px;
+    border: 1px solid rgb(7,14,34) ;
+    transition: .5s;
+}
+.film .container .btn .zagkad:hover{
+    background: black;
+    border: 1px solid rgb(47,83,207);
+    transition: .3s;
+}
+.recomend{
+    margin-bottom: 100px;
+}
+.recomend .container{
+    display: flex;
+    flex-direction: column;
+}
+.recomend .container .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.recomend .container .cards .card{
+    background-color: #1b1b1b;
+    border: none;
+    scale: 1;
+    transition: .5s;
+}
+.recomend .container .cards .card:nth-child(1):hover{
+    scale: 1.1;
+    box-shadow: 0px -10px 0px 0px rgb(0, 174, 255);
+    transition: .3s;
+    
+}
+.recomend .container .cards .card:nth-child(2):hover{
+    scale: 1.1;
+    box-shadow: 0px -10px 0px 0px rgb(109, 79, 40);
+    transition: .3s;
+    
+}
+.recomend .container .cards .card:nth-child(3):hover{
+    scale: 1.1;
+    box-shadow: 0px -10px 0px 0px rgb(146, 4, 4);
+    transition: .3s;
+    
+}
+.recomend .container .cards .card:nth-child(4):hover{
+    scale: 1.1;
+    box-shadow: 0px -10px 0px 0px burlywood;
+    transition: .3s;
+    
+}
+.recomend .container .rec{
+    font-family: 'Golos';
+    font-size: 40px;
+    font-weight: 700;
+    color: #f0f0f0;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.recomend .container .cards h3{
+    font-family: 'Golos';
+    font-size: 16px;
+    font-weight: 600;
+    color: #f0f0f0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.recomend .container .cards h4{
+    font-family: 'Golos';
+    font-size: 14px;
+    font-weight: 500;
+    color: #f0f0f0;
+    margin: 0;
+}
+
+.recomend .container .cards .card .water{
+    background: url(../img/2.jpg);
+    width: 278px;
+    height: 230px;
+    border-radius:  0 0 5px 5px;
+    background-size: cover;
+    background-position: center;
+}
+.recomend .container .cards .card .woman{
+    background: url(../img/3.jpg);
+    width: 278px;
+    height: 230px;
+    border-radius:  0 0 5px 5px;
+    background-size: cover;
+    background-position: center;
+}
+.recomend .container .cards .card .black{
+    background: url(../img/4.jpg);
+    width: 278px;
+    height: 230px;
+    border-radius:  0 0 5px 5px;
+    background-size: cover;
+    background-position: center;
+}
+.recomend .container .cards .card .mirror{
+    background: url(../img/5.jpg);
+    width: 278px;
+    height: 230px;
+    border-radius:  0 0 5px 5px;
+    background-size: cover;
+    background-position: center;
+}
+.cosmoc{
+    margin-bottom: 100px;
+}
+.cosmoc .container{
+    height: 500px;
+    background: url(../img/6.jpg);
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 110px;
+    padding-left: 75px;
+    padding-bottom: 110px;
+}
+.cosmoc .container .cosmo{
+    font-family: 'Golos';
+    font-size: 50px;
+    color: #f0f0f0;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.cosmoc .container .handred{
+    font-family: 'Golos';
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.cosmoc .container .see{
+    height: 52px;
+    width: 230px;
+    background: rgb(47,83,207);
+    background: linear-gradient(90deg, rgba(47,83,207,1) 0%, rgba(79,100,243,1) 50%, rgba(133,175,249,1) 100%);
+    color: #f0f0f0;
+    font-family: 'Golos';
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: .9s;
+}
+.cosmoc .container .see:hover{
+    box-shadow: 1px 1px 10px 5px rgb(5, 100, 243);
+    transition: .5s;
+}
+
+.filminsom{
+    margin-bottom: 100px;
+}
+.filminsom .container{
+    display: flex;
+    
+}
+.block2{
+    display: flex;
+    flex-direction: column;
+   
+}
+.block2 .nameimg{
+    background: url(../img/7.jpg);
+    width: 670px;
+    height: 397px;
+    border-radius: 9px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+}
+.block2 .row2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.block2 .row2 .womanman{
+    background: url(../img/8.jpg);
+    width: 320px;
+    height: 158px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+    transition: .5s;
+    padding: 0;
+}
+.block2 .row2 .womanman:hover{
+    scale: 1.1;
+    transition: .3s;
+}
+.block2 .row2 .man{
+    background: url(../img/9.jpg);
+    width: 320px;
+    height: 158px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+    transition: .5s;
+    padding: 0;
+    
+}
+.block2 .row2 .man:hover{
+    scale: 1.1;
+    transition: .3s;
+}
+.block2 .row1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.block2 .row1 .manblack{
+    background: url(../img/10.jpg);
+    width: 320px;
+    height: 158px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+    transition: .5s;
+}
+.block2 .row1 .manblack:hover{
+    scale: 1.1;
+    transition: .3s;
+}
+.block2 .row1 .manroom{
+    background: url(../img/11.jpg);
+    width: 320px;
+    height: 158px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+    transition: .5s;
+}
+.block2 .row1 .manroom:hover{
+    scale: 1.1;
+    transition: .3s;
+}
+.filminsom .container .block1{
+    width: 43%;
+}
+.filminsom .container .block1 .slider .perecluch{
+    width: 100%;
+    overflow-x: hidden;
+}
+.filminsom .container .block1 .slider .perecluch .line{
+    display: flex;
+    width: 301%;
+    
+}
+.filminsom .container .block1 .slider .perecluch .line .text{
+    width: calc(100%/3);
+    transition: 1s;
+    margin-top: 10px;
+}
+#input1:checked ~ .perecluch .text{
+    transform: translateX(0);
+    transition: 1s;
+}
+#input2:checked ~ .perecluch .text{
+    transform: translateX(-100%);
+    transition: 1s;
+}
+#input3:checked ~ .perecluch .text{
+    transform: translateX(-200%);
+    transition: 1s;
+}
+#input1:checked ~ #label1,
+#input2:checked ~ #label2,
+#input3:checked ~ #label3{
+    text-decoration: underline #85b0f9;
+    color: #f0f0f0;
+    font-weight: 700;
+    
+}
+.filminsom .container .block1 .slider input{
+    display: none;
+}
+.filminsom .container .block1 .slider label{
+    font-family: 'Golos';
+    font-size: 14px;
+    font-weight: 700;
+    color: #919192;
+    margin-right: 30px;
+   
+}
+.filminsom .container .block1 .slider .perecluch .line .text1 h2{
+    font-family: 'Golos';
+    font-size: 16px;
+    font-weight: 500;
+    color: #f0f0f0;
+}
+.filminsom .container .block1 .slider .perecluch .line .text2{
+    display: flex;
+    
+}
+.filminsom .container .block1 .slider .perecluch .line .text2 h2{
+    font-family: 'Golos';
+    font-size: 16px;
+    font-weight: 500;
+    color: #f0f0f0;
+    line-height: 25px;
+}
+.filminsom .container .block1 .slider .perecluch .line .text2 .rolrez{
+    margin-right: 45px;
+}
+.filminsom .container .block1 .slider .perecluch .line .text2 .width{
+    font-weight: 600;
+}
+.filminsom .container .block1 .slider .perecluch .line .text3 h2{
+    font-family: 'Golos';
+    font-size: 16px;
+    font-weight: 500;
+    color: #f0f0f0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.filminsom .container .block1 .slider .perecluch .line .text3 .namedat .vmeste{
+    display: flex;
+    
+}
+.filminsom .container .block1 .slider .perecluch .line .text3 .namedat .name{
+    font-weight: 700;
+}
+.filminsom .container .block1 .slider .perecluch .line .text3 .namedat .oc{
+    font-weight: 700;
+    
+}
+.filminsom .container .block1 .slider .perecluch .line .text3 .otziv{
+    margin-bottom: 30px;
+}
+.filminsom .container .block1 .slider .perecluch .line .text3 .namedat .date{
+    margin-left: 10px;
+    color: #919192;
+}
+
+.filminsom .container .block1 .slider .perecluch .line .text3 .namedat{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    margin-bottom: 10px;
+    
+}
+.filminsom .container .block1 .open{
+    width: 161px;
+    font-family: 'Golos';
+    font-size: 12px;
+    font-weight: 700;
+    color: #f0f0f0;
+    background: rgb(222,82,52);
+    background: linear-gradient(90deg, rgba(222,82,52,1) 0%, rgba(218,150,46,1) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+.filminsom .container .block1 .name{
+    font-family: 'Golos';
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 0;
+    color: #f0f0f0;
+    margin-bottom: 0px;
+}
+.filminsom .container .block1 .info{
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 7px;
+}
+.filminsom .container .block1 .info h3{
+    font-family: 'Golos';
+    font-size: 14px;
+    color: #919192;
+    font-weight: 500;
+    margin-left: 14px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.filminsom .container .block1 .info .obvodka{
+    font-family: 'Golos';
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: #030604;
+    color: #919192;
+    border: 1px solid #323032;
+}
+.filminsom .container .block1 .info .bold{
+    font-family: 'Golos';
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 600;
+    margin-left: 0;
+}
+.filminsom .container .block1 .opis{
+    font-family: 'Golos';
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.filminsom .container .block1 .money{
+    font-family: 'Golos';
+    font-size: 40px;
+    color: #f0f0f0;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.filminsom .container .block1 .btn{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    margin-bottom: 50px;
+}
+.filminsom .container .block1 .btn .buy{
+    height: 52px;
+    width: 230px;
+    background: rgb(47,83,207);
+    background: linear-gradient(90deg, rgba(47,83,207,1) 0%, rgba(79,100,243,1) 50%, rgba(133,175,249,1) 100%);
+    color: #f0f0f0;
+    font-family: 'Golos';
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: .9s;
+}
+.filminsom .container .block1 .btn .buy svg{
+    margin-right: 5px;
+}
+.filminsom .container .block1 .btn .buy:hover{
+    box-shadow: 1px 1px 10px 5px rgb(5, 100, 243);
+    transition: .5s;
+}
+.filminsom .container .block1 .btn .trailers{
+    width: 119px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #1b1b1b ;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    color: #f0f0f0;
+    background: rgb(7,14,34);
+    background: linear-gradient(90deg, rgba(7,14,34,1) 0%, rgba(39,42,43,1) 100%);
+    transition: .5s ;
+}
+.filminsom .container .block1 .btn .trailers:hover{
+    background: #1b1b1b;
+    border: 1px solid rgb(47,83,207);
+    transition: .3s ;
+}
+.filminsom .container .block1 .btn .trailers svg{
+    margin-right: 5px;
+}
+.filminsom .container .block1 .btn .zagkad{
+    width: 49px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(7,14,34);
+    background: linear-gradient(90deg, rgba(7,14,34,1) 0%, rgba(39,42,43,1) 100%);
+    border-radius: 8px;
+    border: 1px solid #1b1b1b ;
+    transition: .5s;
+}
+.filminsom .container .block1 .btn .zagkad:hover{
+    background: #1b1b1b;
+    border: 1px solid rgb(47,83,207);
+    transition: .3s;
+}
+.livetv{
+    background-color: #242424;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.livetv .container .row .col .tvimg{
+    height: 389px;
+    width: 520px;
+    background: url(../img/12.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.livetv .container .row .col .opis{
+    font-family: 'Golos';
+    font-weight: 700;
+    font-size: 30px;
+    color: #f0f0f0;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.livetv .container .row .col .podopis{
+    font-family: 'Golos';
+    font-weight: 500;
+    font-size: 16px;
+    color: #f0f0f0;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+.livetv .container .row .col .harac{
+    display: flex;
+    justify-content: space-between;
+    width: 510px;
+}
+.livetv .container .row .col .harac1{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+}
+
+
+.livetv .container .row .col .harac .blue{
+    font-size: 40px;
+    font-family: 'Golos';
+    font-weight: 700;
+    background-image: linear-gradient(90deg, rgba(47,83,207,1) 0%, rgba(132,174,249,1) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: 0;
+}
+.livetv .container .row .col .harac .bluetext{
+    font-size: 16px;
+    font-family: 'Golos';
+    font-weight: 500;
+    color: #f0f0f0;
+    margin-top: 0;
+}
+.livetv .container .row .col .harac1 .blue{
+    font-size: 40px;
+    font-family: 'Golos';
+    font-weight: 700;
+    background-image: linear-gradient(90deg, rgba(47,83,207,1) 0%, rgba(132,174,249,1) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-bottom: 0;
+}
+.livetv .container .row .col .harac1 .bluetext{
+    font-size: 16px;
+    font-family: 'Golos';
+    font-weight: 500;
+    color: #f0f0f0;
+    margin-top: 0;
+}
+.sub{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sub .container .podpiska{
+    font-family: 'Golos';
+    font-size: 50px;
+    color: #f0f0f0;
+    font-weight: 700;
+}
+.sub .container .get{
+    font-family: 'Golos';
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.sub .container .frst label{
+    font-size: 16px;
+    font-family: 'Golos';
+    font-weight: 500;
+    color: #f0f0f0;
+}
+
+.sub .container .frst input{
+    background: none;
+    border: 1px solid #f0f0f0;
+    color: #f0f0f0;
+    height: 52px;
+}
+
+.sub .container .frst .choice{
+    font-family: 'Golos';
+    font-size: 16px;
+    font-weight: 500;
+    color: #f0f0f0;
+    margin-bottom: 0;
+}
+.sub .container .frst .period{
+    display: flex;
+    
+}
+.sub .container .frst .period .frst{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.sub .container .frst .period .frst label{
+    margin-left: 3px;
+}
+.sub .container .frst .period .scnd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.sub .container .frst .period .scnd label{
+    margin-left: 3px;
+}
+
+.sub .container .frst .period .thd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.sub .container .frst .period .thd label{
+    margin-left: 3px;
+}
+.sub .container .frst .period .frz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.sub .container .frst .period .frz label{
+    margin-left: 3px;
+}
+.sub .container .frst .agree{
+    
+    display: flex;
+    align-items: center;
+    
+}
+.sub .container .frst .agree label{
+    margin-left: 3px;
+}
+.sub .container .frst .gradient{
+    margin-top: 20px;
+    height: 52px;
+    width: 230px;
+    background: rgb(47,83,207);
+    background: linear-gradient(90deg, rgba(47,83,207,1) 0%, rgba(79,100,243,1) 50%, rgba(133,175,249,1) 100%);
+    color: #f0f0f0;
+    font-family: 'Golos';
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    transition: .9s;
+}
+.sub .container .frst .gradient:hover{
+    box-shadow: 1px 1px 10px 5px rgb(5, 100, 243);
+    transition: .5s;
+}
+.sub .container .blocks{
+    display: flex;
+    justify-content: space-between;
+}
+.sub .container .blocks .scnd .mones{
+    display: flex;
+    padding-top: 20px;
+    
+}
+.sub .container .blocks .scnd .mones .money .small{
+    font-family: 'Golos';
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 500;
+    
+}
+.sub .container .blocks .scnd .mones .money .small2{
+    font-family: 'Golos';
+    font-size: 16px;
+    color: #f0f0f0;
+    font-weight: 500;
+    
+}
+.sub .container .blocks .scnd .mones .money .blue{
+    font-family: 'Golos';
+    font-size: 30px;
+    color: #85b0f9;
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.sub .container .blocks .scnd .mones .money{
+    width: 270px;
+    height: 159px;
+    background: rgb(30,35,54);
+    background: linear-gradient(90deg, rgba(30,35,54,1) 0%, rgba(42,49,60,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    padding-top: 5px;
+}
+.sub .container .blocks .scnd .mones .money:nth-child(1){
+    margin-right: 30px;
+}
+.sub .container .blocks .scnd .mones:nth-child(2){
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: #242424;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .container .block1{
+    display: flex;
+    align-items: center;
+    
+
+}
+.footer .container .block1 h3{
+    font-family: 'Golos';
+    font-size: 12px;
+    font-weight: 500;
+    color: #f0f0f0;
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+.footer .container .block1 a{
+    font-family: 'Golos';
+    font-size: 12px;
+    font-weight: 500;
+    color: #f0f0f0;
+    margin-top: 0;
+}
+.footer .container .block2{
+    display: flex;
+    flex-direction: row;
+}
+.footer .container .block2 a{
+    margin-left: 20px;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+    }
+    .header .container{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .film .container{
+        width: 950px;
+        padding-left: 55px !important;
+        padding-bottom: 50px !important;
+    }
+    .recomend .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .recomend .container .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .recomend .container .cards .card:nth-child(1){
+        margin-right: 20px;
+    }
+    .recomend .container .cards .card:nth-child(2){
+        margin-right: 20px;
+    }
+    .recomend .container .cards .card:nth-child(4){
+        margin-top: 30px;
+    }
+
+    .cosmoc .container{
+        width: 950px;
+    }
+    .filminsom{
+        margin-bottom: 20px;
+    }
+    .filminsom .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .filminsom .container .btn .buy{
+        width: 180px !important;
+    }
+    .filminsom .container .btn .trailers{
+        width: 100px !important;
+    }
+    .filminsom .container .btn .zagkad{
+        width: 50px !important;
+    }
+    .filminsom .container .perecluch{
+        width: 96% !important;
+    }
+    .filminsom .container .block2 .nameimg{
+        width: 540px;
+    }
+    .filminsom .container .block2 .womanman{
+        width: 250px;
+    }
+    .filminsom .container .block2 .man{
+        width: 250px;
+    }
+    .filminsom .container .block2 .manblack{
+        width: 250px;
+    }
+    .filminsom .container .block2 .manroom{
+        width: 250px;
+    }
+    .livetv .container .row .col{
+        display: flex !important;
+        flex-direction: column !important; 
+        justify-content: center !important;
+        align-items: center !important;
+        
+    }
+    .livetv .container .row .col{
+        margin-top: 20px !important;
+    }
+    .livetv .container .row .col .opis{
+        text-align: center;
+    }
+    .livetv .container .row .col .podopis{
+        text-align: center;
+    }
+    .livetv .container .row .col .harac1{
+        width: 510px;
+        display: flex;
+        
+    }
+    .livetv .container .row .col .harac1 .scnd{
+        margin-right: 50px;
+    }
+
+    .sub .container .blocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub .container .podpiska{
+        text-align: center;
+    }
+    .sub .container .get{
+        text-align: center;
+    }
+    .sub .container .gradient{
+        margin-bottom: 30px;
+        width: 440px !important;
+       
+        
+    }
+    .footer .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .footer .container h3{
+        margin-top: 0;
+    }
+    html{
+        overflow-x: hidden;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        width: 768px;
+    }
+    .header .container .razdel{
+        width: calc(100%/1.5);
+        
+    }
+    .header .container .razdel a:nth-child(2){
+        margin-left: 64px !important;
+    }
+    .film .container{
+        width: 745px;
+        padding-top: 270px;
+        padding-left: 40px !important;
+        
+    }
+    .film .container .opis{
+        margin-bottom: 20px;
+    }
+    .recomend .container .rec{
+        text-align: center;
+    }
+    .recomend .container .card{
+        margin-right: 30px !important;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .recomend .container .cards .card:nth-child(4){
+        margin-top: 30px !important;
+    }
+    .cosmoc .container{
+        width: 745px;
+        padding-left: 40px !important;
+    }
+    .filminsom .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .filminsom .container .block1{
+        width: 98%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    .filminsom .container .block1 .name{
+        margin-bottom: 15px;
+    }
+    .filminsom .container .block1 .open{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+    }
+    .filminsom .container .block1 .btn{
+        padding: 0 !important;
+        margin-bottom: 20px;
+    }
+    .filminsom .container .block1 .btn button{
+        margin-right: 10px;
+    }
+    
+    .filminsom .container .block1{
+        margin-bottom: 20px;
+    }
+    .filminsom .container .block2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }             
+    .filminsom .container .block2 .row2 .womanman{
+        margin-right: 15px;
+    }
+    .filminsom .container .block2 .row2 .man{
+        margin-left: 15px;
+    }
+    .filminsom .container .block2 .row1 .manblack{
+        margin-right: 15px;
+    }
+    .filminsom .container .block2 .row1 .manroom{
+        margin-left: 15px;
+    }
+    .filminsom{
+        margin-bottom: 100px;
+    }
+    html{
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width:768px){
+    .container{
+        width:  576px;
+    }
+   .header .container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px !important;
+    height: 80px;
+    padding-bottom: 10px !important;
+   }
+   .header .container .razdel{
+    display: flex;
+   }
+   .header .container .razdel a:nth-child(2){
+    margin-left: 20px !important;
+   }
+   .film .container{
+    width: 550px;
+    margin-bottom: 50px;
+   }
+   .film .container .inkognito{
+    font-size: 40px !important;
+    
+   }
+   .film .container .info h3{
+    font-size: 13px !important;
+    margin-top: 0;
+   }
+   .film .container .opis{
+    font-size: 15px !important;
+   }
+  .recomend .container .rec{
+    font-size: 30px !important;
+  }
+  .recomend{
+    margin-bottom: 50px;
+  }
+  .cosmoc .container{
+    width: 550px;
+  }
+  .cosmoc .container .cosmo{
+    font-size: 40px !important;
+    margin-bottom: 10px !important;
+  }
+  
+  .cosmoc .container .handred{
+    font-size: 15px;
+    margin-bottom: 20px !important;
+  }
+  .filminsom .container .block1 .open{
+    font-size: 11px !important;
+    padding: 0px !important;
+  }
+  .filminsom .container .block1 .name{
+    font-size: 40px;
+  }
+  .filminsom .container .block1 .info h3{
+    font-size: 12px !important;
+  }
+  .filminsom .container .block1 .opis{
+    font-size: 15px !important;
+  }
+  .filminsom .container .block1 .money{
+    font-size: 39px !important;
+  }
+  .filminsom .container .block1 .btn .buy{
+    font-size: 12px !important;
+  }
+  .filminsom .container .block1 .btn .trailers{
+    font-size: 12px !important;
+  }
+  .filminsom .container .block1 .slider label{
+    font-size: 12px;
+  }
+  .filminsom .container .block1 .slider .perecluch .line .Sam, .poka{
+    font-size: 14px !important;
+  }
+  .filminsom .container .block1 .slider .perecluch .line .rolrez .rol{
+    font-size: 14px !important;
+  }
+  .filminsom .container .block1 .slider .perecluch .line .rolrez .rez{
+    font-size: 14px !important;
+  }
+  .filminsom .container .block1 .slider .perecluch .line .audiosubor .audio, .sub1, .or{
+    font-size: 14px !important;
+  }
+  .filminsom .container .block1 .slider .perecluch .line h2{
+    font-size: 14px !important;
+  }
+  .filminsom .container .block2 .nameimg{
+    width: 550px !important;
+    
+    
+  }
+  .filminsom{
+    margin-bottom: 50px !important;
+  }
+  .livetv{
+    padding-top: 50px !important;
+  }
+  .livetv .container .tvimg{
+    width: 400px !important;
+    height: 300px !important;
+  }
+  .livetv .container .opis{
+    font-size: 25px !important;
+  }
+  .livetv .container .podopis{
+    font-size: 15px !important;
+  }
+  .livetv .container .harac1 h2{
+    font-size: 35px !important;
+  }
+  .livetv .container .harac h2{
+    font-size: 35px !important;
+  }
+  .livetv .container .harac1 h3{
+    font-size: 15px !important;
+  }
+  .livetv .container .harac h3{
+    font-size: 15px !important;
+  }
+  .livetv{
+    padding-bottom: 50px !important;
+  }
+  .sub{
+    padding-top: 50px !important;
+  }
+  .sub .container h2{
+    font-size: 40px !important;
+  }
+  .sub .container .get{
+    font-size: 15px !important;
+  }
+  .sub .container .blocks input{
+    height: 40px !important;
+  }
+  .sub .container .scnd .mones .money{
+    width: 250px !important;
+  }
+  .footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .container a{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    margin-top: 5px !important;
+  }
+  .footer .container .block1{
+    display: flex;
+    flex-direction: column;
+  }
+  html{
+    overflow-x: hidden !important;
+  }
+  }
+
+  @media (max-width: 576px) {
+    .container{
+        width:  480px;
+        padding: 10px;
+    }
+    .header .container{
+        padding: 10px !important;
+    }
+    .header .container .razdel a{
+        margin-left: 10px !important;
+    }
+    .header .container .razdel a:nth-child(2){
+        margin-left: 10px !important;
+    }
+    .film .container{
+        padding-top: 300px !important;
+        padding-left: 20px !important;
+        width: 450px !important;
+    }
+    .film .container .btn{
+        width: 350px !important;
+    }
+    .film .container .btn .gradient{
+        width: 180px;
+    }
+    .film .container .btn .trailers{
+        width: 100px !important;
+    }
+    .cosmoc .container{
+        width: 450px !important;
+        padding-top: 200px !important;
+    }
+    .filminsom .container .block2 .nameimg{
+        width: 450px !important;
+    }
+    .filminsom .container .block2 .row1 , .row2{
+        width: 450px !important;
+    }
+    .filminsom .container .slider{
+        width: 450px !important;
+    }
+    .livetv .container .podopis{
+        font-size: 14px !important;
+    }
+    .livetv .container .harac, .harac1{
+        width: 450px !important;
+    }
+    
+    .sub .container h2 {
+        font-size: 34px !important;
+    }
+    .recomend .container .rec {
+        font-size: 27px !important;
+    }
+    .sub .container .get {
+        font-size: 14px !important;
+    }
+    .sub .container .scnd .mones .money {
+        width: 200px !important;
+    }
+    .sub{
+        padding-bottom: 50px !important;
+    }
+    html{
+        overflow-x: hidden !important;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .container{
+        width:  300px !important;
+        padding-left: 5px !important; 
+        padding-right: 5px !important;
+    }
+    .header .container{
+        display: flex !important;
+        flex-direction: row !important;
+        height: 120px !important;
+    }
+    .header .container .logoraz{
+        display: flex;
+        flex-direction: column;
+    }
+    .header .container .logoraz a{
+        font-size: 12px !important;
+        margin: 0 !important;
+    }
+    .header .container .logoraz svg{
+        width: 55px !important;
+    }
+    .header .container .logoraz a:nth-child(1){
+       margin-top: 10px !important;
+    }
+    .header .container .logoraz a:nth-child(2){
+        margin: 0 !important;
+    }
+    .header .container .razdel{
+        display: flex;
+        flex-direction: column;
+    }
+    .header .container .options{
+        display: flex;
+        flex-direction: column;
+    }
+    .header .container .options a{
+        font-size: 12px !important;
+    }
+    .header .container .options svg{
+        width: 25px !important;
+    }
+    .film{
+        margin-top: 30px !important;
+    }
+    .film .container{
+        width: 290px !important;
+        height: 300px !important;
+       
+    }
+    .film .container .inkognito{
+        font-size: 25px !important;
+    }
+    .film .container .info h3{
+        font-size: 10px !important;
+    }
+    .film .container .opis{
+        font-size: 11px !important;
+    }
+    .film .container{
+        padding-top: 100px !important;
+        padding-left: 10px !important;
+        padding-right: 0 !important;
+    }
+    .film .container .btn{
+        width: 260px !important;
+    }
+    .film .container .btn .gradient{
+        font-size: 10px !important;
+        width: 140px !important;
+        height: 30px !important;
+    }
+    .film .container .btn .gradient svg{
+        width: 10px !important;
+    }
+    .film .container .btn .trailers{
+        font-size: 10px !important;
+        width: 80px !important;
+        height: 30px !important;
+    }
+    .film .container .btn .zagkad{
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .recomend .container .rec{
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+    .recomend .container .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .recomend .container .cards .card .water{
+        width: 210px !important;
+    }
+    .recomend .container .cards .card .woman{
+        width: 210px !important;
+    }
+    .recomend .container .cards .card .black{
+        width: 210px !important;
+    }
+    .recomend .container .cards .card .mirror{
+        width: 210px !important;
+    }
+    .recomend .container .cards .card h3{
+        font-size: 14px !important;
+    }
+    .recomend .container .cards .card h4{
+        font-size: 12px !important;
+    }
+    .cosmoc{
+        margin-bottom: 50px !important;
+    }
+    .cosmoc .container{
+        width: 290px !important;
+        padding-left: 5px !important;
+        height: 300px !important;
+        padding-top: 120px !important;
+        padding-left: 10px !important;
+    }
+    .cosmoc .container .cosmo{
+        font-size: 25px !important;
+    }
+    .cosmoc .container .handred{
+        font-size: 11px !important;
+    }
+    .cosmoc .container .see{
+        width: 120px !important;
+        height: 30px !important;
+        font-size: 11px !important;
+        
+    }
+    
+    .filminsom .container .block1 .open{
+        padding: 10px !important;
+        margin-bottom: 5px !important;
+    }
+    .filminsom .container .block1 .name{
+        font-size: 30px !important;
+        margin-bottom: 0px !important;
+    }
+    .filminsom .container .block1 .info h3{
+        font-size: 11px !important;
+        margin-top: 0 !important;
+    }
+    .filminsom .container .block1 .opis{
+        font-size: 11px !important;
+    }
+    .filminsom .container .block1 .money{
+        font-size: 30px !important;
+    }
+    .filminsom .container .block1 .btn{
+        display: flex !important;
+        align-items: center !important;
+    }
+    .filminsom .container .block1 .btn .buy{
+        font-size: 11px !important;
+        width: 110px !important;
+        height: 30px !important;
+        line-height: 10px !important;
+    }
+    .filminsom .container .block1 .btn  .trailers{
+        font-size: 11px !important;
+        height: 30px !important;
+        width: 80px !important; 
+        margin-top: 0 !important;
+        
+    }
+    .filminsom .container .block1 .btn  .zagkad{
+        font-size: 11px !important;
+        height: 30px !important;
+        width: 35px !important; 
+       
+    }
+    .filminsom .container .block1 .slider label{
+        font-size: 11px !important;
+    }
+    .filminsom .container .block1 .slider .perecluch .line .Sam{
+        font-size: 10px !important;
+      }
+      .filminsom .container .block1 .slider .perecluch .line .poka{
+        font-size: 10px !important;
+      }
+      .filminsom .container .block1 .slider .perecluch .line .rolrez .rol{
+        font-size: 10px !important;
+      }
+      .filminsom .container .block1 .slider .perecluch .line .rolrez .rez{
+        font-size: 10px !important;
+      }
+      .filminsom .container .block1 .slider .perecluch .line .audiosubor .audio, .sub1, .or{
+        font-size: 10px !important;
+      }
+      .filminsom .container .block1 .slider .perecluch .line h2{
+        font-size: 10px !important;
+      }
+      .filminsom .container .block1 .slider .perecluch .namedat{
+        width: 300px !important;
+      }
+      .filminsom .container .block2 .nameimg{
+        width: 290px !important;
+        height: 200px !important;
+    }
+    .filminsom .container .block2 .row1{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .filminsom .container .block2 .row2{
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .filminsom .container .block2 .nameimg{
+        margin-bottom: 30px !important;
+    }
+    .filminsom .container .block2 .row2 .womanman{
+        margin-right: 0 !important;
+        margin-bottom: 30px !important;
+    }
+    .filminsom .container .block2 .row2 .man{
+        margin-left: 0 !important;
+    }
+    .filminsom .container .block2 .row1 .manblack{
+        margin-right: 0 !important;
+        margin-bottom: 30px !important;
+    }
+    .filminsom .container .block2 .row1 .manroom{
+        margin-left: 0 !important;
+        
+    }
+    .livetv{
+        padding-top: 20px !important;
+    }
+    .livetv .container .tvimg{
+        width: 266px !important; 
+        height: 200px !important;
+    }
+    .livetv .container .opis{
+        font-size: 21px !important;
+        line-height: 28px !important;
+    }
+    .livetv .container .podopis{
+        font-size: 14px !important;
+    }
+    .livetv .container .harac1 .blue{
+        font-size: 20px !important;
+        text-align: center !important;
+        
+    }
+    .livetv .container .harac1 .bluetext{
+        font-size: 12px !important;
+        text-align: center !important;
+        
+    }
+    .livetv .container .harac .blue{
+        font-size: 20px !important;
+        text-align: center !important;
+    }
+    .livetv .container .harac .bluetext{
+        font-size: 12px !important;
+        text-align: center !important;
+    }
+    .livetv .container .harac1{
+        width: 290px !important;
+       display: flex !important;
+        flex-direction: column !important;
+    }
+    .livetv .container .harac1 .scnd{
+        margin: 0 !important;
+    }
+    .livetv .container .harac{
+        width: 290px !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .sub .container .podpiska{
+        font-size: 20px !important;
+    }
+    .sub .container .get{
+        font-size: 11px !important;
+    }
+    .sub .container label{
+        font-size: 11px !important;
+    }
+   
+    .sub .container .blocks .form-control{
+        width: 95% !important;
+    }
+    .sub .container .period{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+    .sub .container .gradient{
+        font-size: 11px !important;
+        width: 150px !important;
+        height: 40px !important;
+    }
+    .sub .container .mones{
+        width: 290px !important;
+    }
+    .sub .container .scnd .mones .money{
+        width: 135px !important;
+        height: 130px !important;
+    }
+    .sub .container .scnd .mones .money .blue{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+    html{
+        overflow-x: hidden !important; 
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    
+    
+    
+      
+      
+      
+    
+    
+    
+
+
+}
+
+
+ 
+  
+
+
